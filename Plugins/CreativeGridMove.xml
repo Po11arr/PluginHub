@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <!-- Stable plugin id. Never change this. -->
+    <Id>8C0DEEC6-0242-4F88-89B9-5C61BBA543A3</Id>
+    <RepoId>Po11arr/move-plugin</RepoId>
+    <FriendlyName>Polar's Creative Grid Move</FriendlyName>
+    <Author>Polar</Author>
+    <Tooltip>Nudge whole grids one block at a time in creative, and merge a locked grid into the grid it touches</Tooltip>
+    <Description>Move a grid by exactly one block without copy and paste.
+
+Ctrl + Numpad 8 / 2 / 4 / 6: forward, back, left, right
+Ctrl + Numpad 9 / 3: up, down
+Ctrl + Numpad 5: lock onto the grid you are looking at, or unlock
+Ctrl + Numpad 0: auto-merge on or off
+
+Directions follow the camera, snapped to the grid's axes, and stay fixed for 5 seconds after the last move so turning around does not swap them.
+Rotor, piston and hinge subgrids move with the grid. A move into another grid is refused.
+With auto-merge on, a locked grid merges into an aligned grid of the same size as soon as it touches it, like a merge block.
+
+NumLock must be on. Single player only, in creative mode or with creative tools enabled.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>65beb2403a8f2083359f1b3b3505a4e7a9daa446</Commit>
+</PluginData>
