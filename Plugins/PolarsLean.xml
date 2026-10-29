@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- Stable plugin id. Never change this. -->
+    <Id>4983415E-E3B6-4381-AFD8-1C59AC7DECFF</Id>
+    <RepoId>Po11arr/PolarsADSLean</RepoId>
+    <FriendlyName>Polar's Lean</FriendlyName>
+    <Author>Polar</Author>
+    <Tooltip>Rainbow Six style leaning on foot: hold Q or E to lean round corners and shoot</Tooltip>
+    <Description>
+        Lean left and right on foot, Rainbow Six style. Hold Q or E.
+
+        - A real side-step, so the server and other players see you lean out. Your hitbox and gun move with you and shots go where you aim.
+        - The camera and gun tilt with the lean. The aim point stays put.
+        - Stops at walls. Let go and you step back to where you started.
+        - Walk sideways while holding the lean to keep it. Letting go always straightens you up.
+        - Works standing, crouching, through jumps and on moving ships.
+
+        Works offline, hosted and on dedicated servers. Client-side only. It just presses strafe for you, so it can do nothing that tapping A and D cannot.
+
+        Off in jetpack, on ladders, in seats and on remote controls, turrets and cameras. Q and E keep their vanilla roll there.
+
+        Settings: keys (with Ctrl, Alt or Shift), hold or toggle, lean distance (0.2 to 0.8 m), camera tilt (0 to 20 degrees).
+
+        Documentation and source:
+        https://github.com/Po11arr/PolarsADSLean
+
+        Bugs: open a GitHub issue with your Pulsar info.log.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Hidden>false</Hidden>
+
+    <Commit>6beea2151af4fe2e41a50027a6c675568452a907</Commit>
+
+</PluginData>
