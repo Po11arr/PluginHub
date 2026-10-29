@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>26931E8B-5796-47EE-B1DB-2CBCA098160C</Id>
+    <RepoId>Po11arr/PolarsBlockNamer</RepoId>
+    <FriendlyName>Polar's Block Namer</FriendlyName>
+    <Author>Polar</Author>
+    <Tooltip>Names every block on a grid: faction tag, grid, short block name, direction</Tooltip>
+    <Description>
+        Open the terminal: a Block Namer section sits at the bottom of every block's Control Panel.
+
+        Name Grid names every block, e.g. "[ACT] Hauler H2 Thr Fwd 2", "[ACT] Hauler Door Back Left", "[ACT] Hauler Bat 3". Thrusters get push direction; cameras, connectors and weapons get facing; doors, lights and vents get position; everything else is numbered. Numbers stay put as you build. Script tags like [IIM] and !LCD are kept.
+
+        Also: Preview Names, Renumber Grid, Create Groups, Auto-Name Grid, and tools for selected blocks (Set Name, Prefix, Suffix, Find and Replace, Add Numbers, Reset Name, Undo).
+
+        Chat: /bn, /bn preview, /bn renumber, /bn groups, /bn undo, /bn auto. Put #keep in a block name to skip it.
+
+        Client-side. Renames use the vanilla sync, so the server checks permissions as normal.
+
+        Bugs: https://github.com/Po11arr/PolarsBlockNamer/issues
+    </Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Runtimes>CLR</Runtimes>
+    <Commit>268f3ff1ed112f508c74db7c7f13b1d40f80864a</Commit>
+</PluginData>
